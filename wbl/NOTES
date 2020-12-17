@@ -1,0 +1,64 @@
+✅ What is the Hamcrest library?
+Hamcrest is a framework that comes with a library of useful matchers for writing match rules using matcher objects.
+Matchers are most commonly used for:
+Writing test assertions
+Data validation
+Filtering JSONPath dependency
+--------------------------------------------------------------------------------------------------------
+✅ What is JSONPath?
+Query language that helps us in parsing the JSON data, which can be used for validation or assertions in a test.
+-----------------------------------------------------------------------------------------------------
+What is serialization in Rest assured?
+✅ REST Assured ObjectMapper Serialization with JSON Often when you are using REST Assured, you will want to
+serialize a POJO (Plain old Java Object) and send that in your API call. Or you might want to take the API
+response and de-serialize the body to a POJO
+------------------------------------------------------------------------------------------------------
+✅Why do we need serialization in REST API?
+The complement of serialization is deserialization, which converts it back to the actual object.
+Together, these processes allow data to be easily stored and transferred. In accessing REST
+ service you often transfer data from client to the REST service or the other way around.
+ -------------------------------------------------------------------------------------------
+✅ How do you use POJO class in Rest assured?
+ Create a separate POJO (Plain Old Java Object) class and use an ObjectMapper like Jackson to serialize
+  Java objects into JSON and deserialize JSON string into Java objects. Rest-assured provides built-in
+  support for object mapping. It is very useful to make a POST call.
+  ----------------------------------------------------------------------------------------------
+ ✅ Representing a JSON, or any structured data including XML, into a programming class is called
+  Deserialization of JSON. The term Deserialization here means the conversion from the String form of
+  JSON to a Class form. This is also called Object Representation of structured data. Here structured data is the JSON.
+  --------------------------------------------------------------------------------------------------
+ ✅  How does JSON respond to rest assured?
+  Read JSON Response Body using Rest Assured
+  Response.body() : returns ResponseBody.
+  Response.getBody() : returns ResponseBody.
+  ---------------------------------------------------------------------------------------------------
+ ✅ Cross-Site Request Forgery (CSRF) is an attack that forces an end user to execute unwanted actions on
+ a web application in which they're currently authenticated.
+
+ What is CSRF example?
+ In a successful CSRF attack, the attacker causes the victim user to carry out an action unintentionally.
+ For example, this might be to change the email address on their account, to change their password, or to make a funds transfer
+ What is CSRF and how do you prevent it?
+
+ An attacker can launch a CSRF attack when he knows which parameters and value combination are being used in a form.
+ Therefore, by adding an additional parameter with a value that is unknown to the attacker and can be validated by
+  the server, you can prevent CSRF attacks..
+
+  How does CSRF token work?
+  This token, called a CSRF Token or a Synchronizer Token, works as follows: The client requests an HTML page that contains
+   a form. ... When the client submits the form, it must send both tokens back to the server. The client sends the cookie
+    token as a cookie, and it sends the form token inside the form data.
+
+Ref:https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/06-Session_Management_Testing/05-Testing_for_Cross_Site_Request_Forgery
+ -----------------------------------------------------------------------------------------------------------------
+  ✅ HAMCREST MATCHERS
+Hamcrest is a framework for writing matcher objects allowing 'match' rules to be defined declaratively.
+ There are a number of situations where matchers are invaluable,
+ such as UI validation or data filtering, but it is in the area of writing flexible tests that matchers are most commonly used.
+
+ What is Hamcrest used for?
+ Hamcrest is a framework that assists writing software tests in the Java programming language.
+  It supports creating customized assertion matchers ('Hamcrest' is an anagram of 'matchers'),
+  allowing match rules to be defined declaratively. These matchers have uses in unit testing frameworks such as JUnit and jMock.
+  ----------------------------------------------------------------------------------------------------------------------------------------
+
